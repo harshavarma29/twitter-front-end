@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.bird-icon {
+  width: 70px;
+  margin-bottom: -3.5px;
+}
+
+.text {
+  color: rgb(36, 153, 199);
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+.search-icon {
+  position: relative;
+  margin-right: -65px;
+  width: 50px;
+  margin-bottom: -1.7px;
+  cursor: pointer;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 400px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: rgb(212, 212, 212);
+  margin: 18px;
+  font-size: 17px;
+  padding-left: 41px;
+}
+
+.left {
+  width: 11.5%;
+}
+
+.right {
+  width: 75%;
+  text-align: left;
+  margin: 15px;
+}
+
+.left, .right {
+  float: left;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+}
+
+.cards-container {
+  background-color: rgb(193, 227, 241);
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.card {
+  width: 740px;
+  background-color: white;
+  margin: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.profile-image {
+  width: 90%;
+}
+
+.gap {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.light {
+  color: gray;
+}
+
+.description {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .cards-container {
+    width: 89%;
+  }
+
+  .card {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search-bar {
+    width: 80%;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text {
+    font-size: 25px;
+    margin: 0px;
+  }
+
+  .bird-icon {
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .search-icon {
+    display: none;;
+  }
+}
