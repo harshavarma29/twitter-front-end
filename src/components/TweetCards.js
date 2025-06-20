@@ -7,8 +7,6 @@ const Cards = ({exe}) => {
     const [feeds, setFeeds] = useState([]);
 
     useEffect(() => {
-        console.log('==============')
-        console.log(feeds)
 
         axios.get('http://localhost:4000/get_tweets')
         .then(response => setFeeds(response.data))
